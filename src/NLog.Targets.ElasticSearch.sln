@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Targets.ElasticSearch", "NLog.Targets.ElasticSearch\NLog.Targets.ElasticSearch.csproj", "{B0B84774-1B40-4735-A5CE-B08C4FB3BA3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLog.Targets.ElasticSearch", "NLog.Targets.ElasticSearch\NLog.Targets.ElasticSearch.csproj", "{B0B84774-1B40-4735-A5CE-B08C4FB3BA3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Targets.ElasticSearch.Tests", "NLog.Targets.ElasticSearch.Tests\NLog.Targets.ElasticSearch.Tests.csproj", "{A1E076FE-6E3D-4AF1-838C-3A2A6DFE8006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLog.Targets.ElasticSearch.Tests", "NLog.Targets.ElasticSearch.Tests\NLog.Targets.ElasticSearch.Tests.csproj", "{A1E076FE-6E3D-4AF1-838C-3A2A6DFE8006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLog.Targets.ElasticSearch.Net40", "NLog.Targets.ElasticSearch.Net40\NLog.Targets.ElasticSearch.Net40.csproj", "{EF5156BF-4EA5-4DEC-86DE-02F7171AD455}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{A1E076FE-6E3D-4AF1-838C-3A2A6DFE8006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1E076FE-6E3D-4AF1-838C-3A2A6DFE8006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1E076FE-6E3D-4AF1-838C-3A2A6DFE8006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5156BF-4EA5-4DEC-86DE-02F7171AD455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5156BF-4EA5-4DEC-86DE-02F7171AD455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5156BF-4EA5-4DEC-86DE-02F7171AD455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5156BF-4EA5-4DEC-86DE-02F7171AD455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {072BB099-0F06-4E97-B702-86DC382D42EC}
 	EndGlobalSection
 EndGlobal
